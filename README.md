@@ -1,5 +1,5 @@
-Tie block! -> string!
-=====================
+Tie a string! from a block!
+===========================
 
 Simplest version of **combine** I could imagine!!
 
@@ -27,10 +27,12 @@ Simplest version of **combine** I could imagine!!
 Tie's KISS checklist
 --------------------
 
+* module must be short, sweet, light and nimble :)
 * always returns a string!
 * remove all **NONE**
 * unless */allow-none-as* refinement is used
 * and tie together with no spaces unless */with* refinement given
+* one level only, ie. no recursion (block and blocks don't go round and round!)
 
 
 Examples
