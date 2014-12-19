@@ -31,7 +31,7 @@ Tie's KISS checklist
 * always returns a string!
 * remove all **NONE**
 * unless */allow-none-as* refinement is used
-* and tie together with no spaces unless */with* refinement given
+* and tie together snuggly unless */with* refinement given
 * one level only, ie. no recursion (block and blocks don't go round and round!)
 
 
