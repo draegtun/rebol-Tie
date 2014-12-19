@@ -9,6 +9,7 @@ Rebol [
     history: [
         0.1.0   [19-Dec-2014 "Put into module and placed on Github" "draegtun"]
     ]
+    license: {Artistic 2.0 http://opensource.org/licenses/Artistic-2.0}
     exports: [tie]
 ]
 
