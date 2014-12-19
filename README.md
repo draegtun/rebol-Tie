@@ -1,5 +1,7 @@
+Tie block! -> string!
+=====================
+
 Simplest version of **combine** I could imagine!!
-=================================================
 
     >> import 'tie
     >> help tie
@@ -34,7 +36,14 @@ Tie's KISS checklist
 Examples
 --------
 
-    TBD
+    >> tie ["hel" "lo" if true [" "] "world" if false ["BLAH!"] "!"] 
+    == "hello world!"
+
+    >> tie/with [1 2 3 4 5] ","            
+    == "1,2,3,4,5"
+    
+    >> tie/allow-none-as [1 2 none 3 4 if false [99] 5] "0"
+    == "1203405
 
 
 Disclaimer
