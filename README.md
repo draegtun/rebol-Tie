@@ -27,7 +27,7 @@ Simplest version of **combine** I could imagine!!
 Tie's KISS checklist
 --------------------
 
-* module must be short, sweet, light and nimble :)
+* module must be short, sweet and pragmatic
 * always returns a string!
 * remove all **NONE**
 * unless */allow-none-as* refinement is used
