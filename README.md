@@ -45,12 +45,12 @@ Examples
     == "1,2,3,4,5"
     
     >> tie/allow-none-as [1 2 none 3 4 if false [99] 5] "0"
-    == "1203405
+    == "1203405"
 
 
 Disclaimer
 ----------
 
-So not **rejoin** or **combine** but **to-string**++ :)
+So not **rejoin**, **ajoin** or **combine** but **to-string**++ :)
 
 *see %tie.reb header for more details*

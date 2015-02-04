@@ -4,10 +4,11 @@ Rebol [
     name: tie
     file: %tie.reb
     author: "Barry Walsh (draegtun)"
-    date: 19-Dec-2014
-    version: 0.1.0
+    date: 4-Feb-2015
+    version: 0.2.0
     history: [
         0.1.0   [19-Dec-2014 "Put into module and placed on Github" "draegtun"]
+        0.2.0   [4-Feb-2015  "Added (simple) examples/tests"]
     ]
     license: {Artistic 2.0 http://opensource.org/licenses/Artistic-2.0}
     exports: [tie]
@@ -26,8 +27,8 @@ tie: function [
     ; reduce block.  Return empty string if empty?
     if empty? block: reduce block [return make string! 0]
 
-    ; remove NONEs?
-    unless allow-none-as [remove-each n block [none? n]]
+    ; trim NONE!
+    unless allow-none-as [trim block]
 
     ; tie string
     if with [
